@@ -21,8 +21,7 @@ public class EmployeeConfig {
         return connection;
     }
 
-//    public static void main(String[] args) {
-//        EmployeeConfig e = new EmployeeConfig();
-//        EmployeeConfig.getConfig();
-//    }
+    public static void main(String[] args) {
+        getConfig();
+    }
 }
